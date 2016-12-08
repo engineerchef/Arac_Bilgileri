@@ -6,9 +6,9 @@ public class AracModelAdet extends AracMarka{
     
     public AracModelAdet() {
 	super.sc = sc;
-	System.out.print("Aracýn modelini giriniz  : ");
+	System.out.print("Aracin modelini giriniz  : ");
 	model = sc.nextLine();
-	System.out.print("Aracýn piyasaya çýkýþ tarihini giriniz : ");
+	System.out.print("Aracin piyasaya çikis tarihini giriniz : ");
 	adet = sc.nextInt();
     }
     

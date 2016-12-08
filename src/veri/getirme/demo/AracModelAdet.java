@@ -6,25 +6,25 @@ public class AracModelAdet extends AracMarka{
     
     public AracModelAdet() {
 	super.sc = sc;
-	System.out.print("Aracýn modelini giriniz  : ");
+	System.out.print("AracÃ½n modelini giriniz  : ");
 	model = sc.nextLine();
-	System.out.print("Aracýn piyasaya çýkýþ tarihini giriniz : ");
+	System.out.print("AracÃ½n piyasaya Ã§Ã½kÃ½Ã¾ tarihini giriniz : ");
 	adet = sc.nextInt();
     }
     
-    public void getModel(String model) {
+    public void setModel(String model) {
 	this.model = model;
     }
     
-    public String setModel() {
+    public String getModel() {
 	return model;
     }
     
-    public void getTarih(int tarih) {
+    public void setTarih(int tarih) {
 	this.adet = tarih;
     }
     
-    public int setTarih() {
+    public int getTarih() {
 	return adet;
     }
     
